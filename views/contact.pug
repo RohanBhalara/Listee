@@ -1,0 +1,12 @@
+extends layout 
+
+
+block main-content 
+    div.banner.contact-banner
+        h1.title Get in touch
+    section.contact 
+        h3 Contact 
+        input(type="text", name="name", placeholder="Name")
+        input(type="text", name="email", placeholder="Email")
+        textarea(name="message", cols="30", rows="10", placeholder="Message")
+        input(type="submit", value="Send")
