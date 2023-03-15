@@ -13,7 +13,7 @@ async function getHotels({city}) {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
-                'X-RapidAPI-Key': 'd6498a6b48msh87307525c2a691bp1e425ajsnffa9a6c6561e',
+                'X-RapidAPI-Key': '030eb28c14mshb2c36693e6e4ed1p1d491ejsn5ee82c92e81f',
                 'X-RapidAPI-Host': 'tripadvisor16.p.rapidapi.com'
             }
         }
